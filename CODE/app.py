@@ -8,6 +8,7 @@ from youtube_transcript_api.formatters import TextFormatter
 from flask import Flask, jsonify, request, send_from_directory, render_template, redirect
 
 # NLTK Imports
+# import nltk
 import nltk
 
 # Other Imports
