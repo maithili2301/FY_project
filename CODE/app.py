@@ -209,7 +209,6 @@ def create_app():
     @app.route('/api/')
     def summarizer_api_info_route():
         # Since we have two end points inside root
-        
         #  we are closing root endpoint.
         # Displaying root.html to the end user
         return render_template('api.html')
