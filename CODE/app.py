@@ -226,6 +226,7 @@ def create_app():
 
 
 if __name__ == '__main__':
+    
     # Running Flask Application
     # app.run()
     flask_app = create_app()
