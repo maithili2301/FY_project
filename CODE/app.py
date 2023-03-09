@@ -209,6 +209,7 @@ def create_app():
     @app.route('/api/')
     def summarizer_api_info_route():
         # Since we have two end points inside root
+        
         #  we are closing root endpoint.
         # Displaying root.html to the end user
         return render_template('api.html')
@@ -226,7 +227,7 @@ def create_app():
 
 
 if __name__ == '__main__':
-    
+
     # Running Flask Application
     # app.run()
     flask_app = create_app()
