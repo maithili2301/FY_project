@@ -16,7 +16,7 @@ import os
 import sys
 
 # Summarizer Import (Our Another File: summarizer.py)
-from summarizer import gensim_summarize, spacy_summarize, nltk_summarize, sumy_lsa_summarize, sumy_luhn_summarize, \
+from CODE.summarizer import gensim_summarize, spacy_summarize, nltk_summarize, sumy_lsa_summarize, sumy_luhn_summarize, \
     sumy_text_rank_summarize
 
 # Waitress Import for Serving at Heroku
